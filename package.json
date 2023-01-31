@@ -1,0 +1,37 @@
+{
+    "name": "1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon --inspect index.js",
+        "msg": "cross-env NODE_ENV=production node index.js",
+        "merge": "nodemon --inspect merge.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.3",
+        "dayjs": "^1.8.35",
+        "express": "^4.17.1",
+        "file-type": "^16.5.3",
+        "fs-extra": "^10.0.0",
+        "lodash": "^4.17.20",
+        "puppeteer": "^2.1.1"
+    },
+    "devDependencies": {
+        "cross-env": "^7.0.0"
+    },
+    "nodemonConfig": {
+        "ignore": [
+            "input/*",
+            "dist/*"
+        ]
+    },
+    "engines": {
+        "node": ">=16.15.1",
+        "npm": ">=8.12.2"
+    }
+}
