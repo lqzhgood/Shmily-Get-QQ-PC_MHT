@@ -13,7 +13,7 @@
 0. 安装 node 环境 [http://lqzhgood.github.io/Shmily/guide/setup-runtime/nodejs.html]
 1. 导出的 `.mht` 文件放入 `input`
 
-    - [PC-Clipboard](https://github.com/lqzhgood/Shmily-Get-QQ-PC_Clipboard) 得到的 face.json 放入 input 中 `./input/face.json`
+    - [PC_Clipboard](https://github.com/lqzhgood/Shmily-Get-QQ-PC_Clipboard) 得到的 face.json 放入 input 中 `./input/face.json`
 
 2. 修改 `config.js`
 3. 执行 `npm run msg`
