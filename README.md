@@ -18,6 +18,7 @@
 2. 修改 `config.js`
 3. 执行 `npm run msg`
 4. `dist` 获取 数据文件 和 资源文件
+5. 通过 https://github.com/lqzhgood/Shmily-Get-QQ-PC_utils 修复一些问题
 
 ## ！丢失消息！ 以下类型 QQ 聊天窗不显示 就无法复制
 
