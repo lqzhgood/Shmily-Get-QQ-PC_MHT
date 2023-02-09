@@ -1,0 +1,120 @@
+[
+    {
+        "type": "暴走漫画",
+        "alt": "好棒耶",
+        "files": [
+            {
+                "md5": "57d84cf160d7b5697372626506114b45",
+                "ext": ".gif",
+                "size": 13395,
+                "alias": [
+                    {
+                        "md5": "a3502be5302eb7c0809fa7a96a371869",
+                        "ext": ".png",
+                        "size": 3102
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "暴走漫画",
+        "alt": "坏笑",
+        "files": [
+            {
+                "md5": "b42c50c6d355276c1ce0f1913e22a915",
+                "ext": ".gif",
+                "size": 21756,
+                "alias": [
+                    {
+                        "md5": "bf9b4e44686659134e746ee02d37267f",
+                        "ext": ".png",
+                        "size": 4140
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "暴走漫画",
+        "alt": "大哭",
+        "files": [
+            {
+                "md5": "dde4d277423d9f3716a3e2bb50b299e2",
+                "ext": ".gif",
+                "size": 9757,
+                "alias": [
+                    {
+                        "md5": "6212cb332ae088c74b62918fab6e57e4",
+                        "ext": ".png",
+                        "size": 3972
+                    },
+                    {
+                        "md5": "142c0ceac3aea9c676c1ceb43399ac12",
+                        "ext": ".png",
+                        "size": 4471
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "暴走漫画",
+        "alt": "流泪",
+        "files": [
+            {
+                "md5": "05c51716458bdc4c29fbe504f17ddc97",
+                "ext": ".gif",
+                "size": 14819,
+                "alias": [
+                    {
+                        "md5": "a46b32f58aea3bd792c169e419681a1e",
+                        "ext": ".png",
+                        "size": 3221
+                    },
+                    {
+                        "md5": "16813b3714ae2842db82121b17c01685",
+                        "ext": ".png",
+                        "size": 3016
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "暴走漫画",
+        "alt": "吓",
+        "files": [
+            {
+                "md5": "7c386ed9ef8cc47de001d71e9eb020ac",
+                "ext": ".gif",
+                "size": 15915,
+                "alias": [
+                    {
+                        "md5": "2cd779c67a60a570ca792175e15fef3a",
+                        "ext": ".png",
+                        "size": 3941
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "暴走漫画",
+        "alt": "得意",
+        "files": [
+            {
+                "md5": "fb3bc8dccab3d62c6b8a9703fbaa192c",
+                "ext": ".gif",
+                "size": 13639,
+                "alias": [
+                    {
+                        "md5": "cfb9caaf29bf66c6cb3b93f03505d10d",
+                        "ext": ".png",
+                        "size": 2595
+                    }
+                ]
+            }
+        ]
+    }
+]

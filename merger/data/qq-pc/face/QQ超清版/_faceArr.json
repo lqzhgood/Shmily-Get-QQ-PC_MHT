@@ -1,0 +1,108 @@
+[
+  {
+    "type": "QQ超清版",
+    "alt": "鬼脸",
+    "files": [
+      {
+        "md5": "3d1d1ce227b676ab781f15466e759ba6",
+        "ext": ".png",
+        "size": 9672
+      }
+    ]
+  },
+  {
+    "type": "QQ超清版",
+    "alt": "可爱",
+    "files": [
+      {
+        "md5": "89fb2b20817ae134ba13afe52b69a146",
+        "ext": ".png",
+        "size": 9036
+      }
+    ]
+  },
+  {
+    "type": "QQ超清版",
+    "alt": "拜拜",
+    "files": [
+      {
+        "md5": "5270dfeb54de5a6fa926e4f3ef11d8e1",
+        "ext": ".png",
+        "size": 9398
+      }
+    ]
+  },
+  {
+    "type": "QQ超清版",
+    "alt": "不",
+    "files": [
+      {
+        "md5": "00789566b25ed4221054b64af1067ad3",
+        "ext": ".png",
+        "size": 8794
+      }
+    ]
+  },
+  {
+    "type": "QQ超清版",
+    "alt": "呲牙",
+    "files": [
+      {
+        "md5": "a7b2c7d4f00f0065dabc1767975af56f",
+        "ext": ".png",
+        "size": 8228
+      }
+    ]
+  },
+  {
+    "type": "QQ超清版",
+    "alt": "泪别",
+    "files": [
+      {
+        "md5": "ae9723752e912630a0aea664f4926f61",
+        "ext": ".png",
+        "size": 10117
+      }
+    ]
+  },
+  {
+    "type": "QQ超清版",
+    "alt": "微笑",
+    "files": [
+      {
+        "md5": "e2637aff1e47f8e4d0f598b36f2d0496",
+        "ext": ".png",
+        "size": 7218
+      }
+    ]
+  },
+  {
+    "type": "QQ超清版",
+    "alt": "大哭",
+    "files": [
+      {
+        "md5": "f81a7091bef286024833b48b59b46122",
+        "ext": ".png",
+        "size": 11120
+      }
+    ]
+  },
+  {
+    "type": "QQ超清版",
+    "alt": "亲亲",
+    "files": [
+      {
+        "md5": "fc91e6c8c4aa6afe4abd145dd089ba42",
+        "ext": ".png",
+        "size": 7042,
+        "alias": [
+          {
+            "md5": "70d901d6d4ab06f26ad9d8bd6ef3fd08",
+            "ext": ".jpg",
+            "size": 12616
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "type": "钱团子",
+        "alt": "泪奔",
+        "files": [
+            {
+                "md5": "c79602d88f07da3a16cb04de93bb70df",
+                "ext": ".gif",
+                "size": 12987,
+                "alias": [
+                    {
+                        "md5": "e5a4e7d1c0055c26da077110ca50f9d3",
+                        "ext": ".png",
+                        "size": 2170
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "钱团子",
+        "alt": "委屈",
+        "files": [
+            {
+                "md5": "2923f5c28909a3a8984e1fca1f2c70e6",
+                "ext": ".gif",
+                "size": 12925,
+                "alias": [
+                    {
+                        "md5": "33b127a9dd93cc138491bf9ffe5ee1ad",
+                        "ext": ".png",
+                        "size": 2170
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "钱团子",
+        "alt": "耍赖",
+        "files": [
+            {
+                "md5": "e00b0938a0fc4e99f8585112c47b5b38",
+                "ext": ".gif",
+                "size": 8717,
+                "alias": [
+                    {
+                        "md5": "50af8dc2ff9f9cf2f15224fa15a82a46",
+                        "ext": ".png",
+                        "size": 1747
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "type": "黄果男",
+    "alt": "凄凉",
+    "files": [
+      {
+        "md5": "0de4f529f5e6d2dd9f584e6d624212e4",
+        "ext": ".gif",
+        "size": 5289,
+        "alias": [
+          {
+            "md5": "722a1a97d6bb3f9105e71ea98c3de0ac",
+            "ext": ".png",
+            "size": 3653
+          },
+          {
+            "md5": "0cd2d66688357428401ee8dcb07a3676",
+            "ext": ".png",
+            "size": 3408
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "黄果男",
+    "alt": "萧瑟",
+    "files": [
+      {
+        "md5": "8d2f5d6fea10ca978ccc3bbe65a59e72",
+        "ext": ".gif",
+        "size": 13532,
+        "alias": [
+          {
+            "md5": "3ad0142dc74b62f640477ed1f20e899b",
+            "ext": ".png",
+            "size": 2544
+          },
+          {
+            "md5": "d13a17f694656fc167946ea9c46b12f9",
+            "ext": ".png",
+            "size": 2844
+          }
+        ]
+      }
+    ]
+  }
+]

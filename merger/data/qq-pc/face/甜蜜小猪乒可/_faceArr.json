@@ -1,0 +1,38 @@
+[
+  {
+    "type": "甜蜜小猪乒可",
+    "alt": "哼",
+    "files": [
+      {
+        "md5": "1872fb5f62ad63f01f5046e5a5405669",
+        "ext": ".gif",
+        "size": 31624,
+        "alias": [
+          {
+            "md5": "040929815d2409bcc1dcf702a993dd6f",
+            "ext": ".png",
+            "size": 1731
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "甜蜜小猪乒可",
+    "alt": "委屈巴巴",
+    "files": [
+      {
+        "md5": "ee57cc956289f396a1fdd4bf6dd3330c",
+        "ext": ".gif",
+        "size": 51194,
+        "alias": [
+          {
+            "md5": "a8db1ed75b1f7e8b3dd37a3a3c01d26d",
+            "ext": ".png",
+            "size": 2535
+          }
+        ]
+      }
+    ]
+  }
+]

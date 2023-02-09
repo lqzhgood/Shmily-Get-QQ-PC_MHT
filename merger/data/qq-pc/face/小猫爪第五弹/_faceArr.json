@@ -1,0 +1,38 @@
+[
+  {
+    "type": "小猫爪第五弹",
+    "alt": "哼",
+    "files": [
+      {
+        "md5": "50e6411f1cc26731724cdbdd020161be",
+        "ext": ".gif",
+        "size": 23642,
+        "alias": [
+          {
+            "md5": "25614f77a9c73a7c8f9cf83b71b50daa",
+            "ext": ".png",
+            "size": 2914
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "小猫爪第五弹",
+    "alt": "饿了",
+    "files": [
+      {
+        "md5": "f02de66221445892575e1a2d97feb96a",
+        "ext": ".gif",
+        "size": 22050,
+        "alias": [
+          {
+            "md5": "ca17c7afe06cf9a8510f30ef2ccf0998",
+            "ext": ".png",
+            "size": 2139
+          }
+        ]
+      }
+    ]
+  }
+]

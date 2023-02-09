@@ -1,0 +1,31 @@
+[
+    {
+        "type": "蜜桃猫",
+        "alt": "无言以对",
+        "files": [
+            {
+                "md5": "642cf10bbb0bfd8b4a6b2080de35ddee",
+                "ext": ".gif",
+                "size": 58846
+            }
+        ]
+    },
+    {
+        "type": "蜜桃猫",
+        "alt": "哼",
+        "files": [
+            {
+                "md5": "bc5ade1b2373d0afd99143c73d20c662",
+                "ext": ".gif",
+                "size": 126150,
+                "alias": [
+                    {
+                        "md5": "c17bcf1fa6f4786eff308a9947613c1f",
+                        "ext": ".gif",
+                        "size": 58586
+                    }
+                ]
+            }
+        ]
+    }
+]

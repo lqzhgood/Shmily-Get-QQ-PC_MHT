@@ -1,0 +1,38 @@
+[
+  {
+    "type": "萌小鸡",
+    "alt": "呆",
+    "files": [
+      {
+        "md5": "782d3c3e3acc620e7fb44b93909bd784",
+        "ext": ".gif",
+        "size": 5355,
+        "alias": [
+          {
+            "md5": "59fec4323897b18ee6acf346e1a63b0a",
+            "ext": ".png",
+            "size": 3118
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "萌小鸡",
+    "alt": "睡觉",
+    "files": [
+      {
+        "md5": "4d776ea7190af7c8f912bef731a94c64",
+        "ext": ".gif",
+        "size": 12133,
+        "alias": [
+          {
+            "md5": "09de60635253a36c31e847a11dd29d07",
+            "ext": ".png",
+            "size": 3410
+          }
+        ]
+      }
+    ]
+  }
+]

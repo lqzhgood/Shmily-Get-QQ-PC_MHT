@@ -1,0 +1,74 @@
+[
+    {
+        "type": "QQ表情超清版",
+        "alt": "流泪",
+        "files": [
+            {
+                "md5": "5a11663ead85698ea248e54fb3cec09c",
+                "ext": ".gif",
+                "size": 12075,
+                "alias": [
+                    {
+                        "md5": "e260349078dacfd134139186e4be6308",
+                        "ext": ".png",
+                        "size": 4629
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "QQ表情超清版",
+        "alt": "可怜",
+        "files": [
+            {
+                "md5": "893e5593e3797eb563221c0e81e77ef5",
+                "ext": ".gif",
+                "size": 11854,
+                "alias": [
+                    {
+                        "md5": "59cd938dfdbf9465634f9d0e659632b6",
+                        "ext": ".png",
+                        "size": 5062
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "QQ表情超清版",
+        "alt": "亲亲",
+        "files": [
+            {
+                "md5": "8b6acd9e6217f2b2f4ee7f26ecd11f15",
+                "ext": ".gif",
+                "size": 7426,
+                "alias": [
+                    {
+                        "md5": "45f9889930cdb3f3e2201b89085bde95",
+                        "ext": ".png",
+                        "size": 4359
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "QQ表情超清版",
+        "alt": "敲打",
+        "files": [
+            {
+                "md5": "c0e5542ebf167812cfef52b5e6dc2b69",
+                "ext": ".gif",
+                "size": 16159,
+                "alias": [
+                    {
+                        "md5": "009972239262c6484c608504b54ec004",
+                        "ext": ".png",
+                        "size": 4382
+                    }
+                ]
+            }
+        ]
+    }
+]

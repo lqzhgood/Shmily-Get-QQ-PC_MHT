@@ -1,0 +1,38 @@
+[
+    {
+        "type": "猪咕力",
+        "alt": "哼",
+        "files": [
+            {
+                "md5": "3ee4d6bc0b779f8d411194e40b6460a1",
+                "ext": ".gif",
+                "size": 34709,
+                "alias": [
+                    {
+                        "md5": "e3d184ed4a4b2003fd532a9616ef85ba",
+                        "ext": ".png",
+                        "size": 2992
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "猪咕力",
+        "alt": "快点",
+        "files": [
+            {
+                "md5": "b471be301cbde66475a4fdbcbef8ab0b",
+                "ext": ".gif",
+                "size": 39243,
+                "alias": [
+                    {
+                        "md5": "92a07f1ebaf0fd1e40cddf0294b9bd8e",
+                        "ext": ".png",
+                        "size": 2873
+                    }
+                ]
+            }
+        ]
+    }
+]

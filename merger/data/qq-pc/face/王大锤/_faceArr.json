@@ -1,0 +1,66 @@
+[
+  {
+    "type": "王大锤",
+    "alt": "没",
+    "files": [
+      {
+        "md5": "edd66685571d9535c6d613cb6f055992",
+        "ext": ".gif",
+        "size": 30342,
+        "alias": [
+          {
+            "md5": "98a1c765a51c7483030c13ba16d6dda8",
+            "ext": ".png",
+            "size": 3315
+          },
+          {
+            "md5": "bee5e4d48caa1fe54d90a650235927f8",
+            "ext": ".png",
+            "size": 3331
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "王大锤",
+    "alt": "激动",
+    "files": [
+      {
+        "md5": "b559976358b31c5178b2d7e9d9b919e8",
+        "ext": ".gif",
+        "size": 26966,
+        "alias": [
+          {
+            "md5": "47640fa982226f9fd47104786de4682b",
+            "ext": ".png",
+            "size": 3527
+          },
+          {
+            "md5": "dc47d9639e21a4c9659d2b6a925795b2",
+            "ext": ".png",
+            "size": 4625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "王大锤",
+    "alt": "哭泣",
+    "files": [
+      {
+        "md5": "eff40a4fe43222fb71348c0dbcc8e958",
+        "ext": ".gif",
+        "size": 13483,
+        "alias": [
+          {
+            "md5": "b5d21bcae58ee55477a8aa855c56680f",
+            "ext": ".png",
+            "size": 5045
+          }
+        ]
+      }
+    ]
+  }
+]

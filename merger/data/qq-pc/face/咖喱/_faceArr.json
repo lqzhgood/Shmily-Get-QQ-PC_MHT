@@ -1,0 +1,115 @@
+[
+    {
+        "type": "咖喱",
+        "alt": "爱你",
+        "files": [
+            {
+                "md5": "012c43e093920acc53ab4a60b942a724",
+                "ext": ".gif",
+                "size": 24934,
+                "alias": [
+                    {
+                        "md5": "e207ff7e2b84555c06d86e215279d009",
+                        "ext": ".png",
+                        "size": 3470
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "咖喱",
+        "alt": "流口水",
+        "files": [
+            {
+                "md5": "4bb2e30292a09e5665540003d616acad",
+                "ext": ".gif",
+                "size": 14614,
+                "alias": [
+                    {
+                        "md5": "66beeaa88e708ee0081a3daa838e4d20",
+                        "ext": ".png",
+                        "size": 3103
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "咖喱",
+        "alt": "流泪",
+        "files": [
+            {
+                "md5": "9877d15887ec32dbb1825a359a7f674c",
+                "ext": ".gif",
+                "size": 15688,
+                "alias": [
+                    {
+                        "md5": "2ba315b58e94373df1e0ceb81f01063e",
+                        "ext": ".png",
+                        "size": 3370
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "咖喱",
+        "alt": "饿",
+        "files": [
+            {
+                "md5": "eb40b2b10118e5e51e439186da2c9e7f",
+                "ext": ".gif",
+                "size": 11123,
+                "alias": [
+                    {
+                        "md5": "3eddff2a57783f23926d94b0319cdc94",
+                        "ext": ".png",
+                        "size": 3451
+                    },
+                    {
+                        "md5": "3af4d2bb33cc419382449fff19a15cba",
+                        "ext": ".png",
+                        "size": 4013
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "咖喱",
+        "alt": "好冷",
+        "files": [
+            {
+                "md5": "1f107572aa11e646ba1dbcc7c7979fa3",
+                "ext": ".gif",
+                "size": 17794,
+                "alias": [
+                    {
+                        "md5": "59a0e25138724cc683418e4bf53a25ea",
+                        "ext": ".png",
+                        "size": 5110
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "咖喱",
+        "alt": "晚安",
+        "files": [
+            {
+                "md5": "0aa07c90776a7865ee6e9dfc3290de7a",
+                "ext": ".gif",
+                "size": 24028,
+                "alias": [
+                    {
+                        "md5": "c1325bb38ad10712a819368c4d7a27f4",
+                        "ext": ".png",
+                        "size": 4020
+                    }
+                ]
+            }
+        ]
+    }
+]

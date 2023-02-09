@@ -1,0 +1,38 @@
+[
+  {
+    "type": "meomeoneko",
+    "alt": "开心",
+    "files": [
+      {
+        "md5": "5c36228aecb6e6b08bc8481ee7573719",
+        "ext": ".png",
+        "size": 8196,
+        "alias": [
+          {
+            "md5": "3bee3546ebe65e00ac83c118eded81d7",
+            "ext": ".png",
+            "size": 2496
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "meomeoneko",
+    "alt": "亲亲",
+    "files": [
+      {
+        "md5": "57390dcb20b66efdfdd159db98c798d3",
+        "ext": ".png",
+        "size": 7895,
+        "alias": [
+          {
+            "md5": "5d78cb8377825e3086d8a9dffaa7fce0",
+            "ext": ".png",
+            "size": 2379
+          }
+        ]
+      }
+    ]
+  }
+]

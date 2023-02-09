@@ -1,0 +1,38 @@
+[
+    {
+        "type": "斑马人",
+        "alt": "扭扭",
+        "files": [
+            {
+                "md5": "02bd79db2906c1449b2aae74ca72c4e3",
+                "ext": ".gif",
+                "size": 14985,
+                "alias": [
+                    {
+                        "md5": "62ddb5a8525a41f7525d8485829ce3d2",
+                        "ext": ".png",
+                        "size": 1664
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "斑马人",
+        "alt": "打屁屁",
+        "files": [
+            {
+                "md5": "1fd26a7d76f3bd84df77f7966f737ccd",
+                "ext": ".gif",
+                "size": 26379,
+                "alias": [
+                    {
+                        "md5": "26c03b3d6d25d150b627864636a6440a",
+                        "ext": ".png",
+                        "size": 2136
+                    }
+                ]
+            }
+        ]
+    }
+]
