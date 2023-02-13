@@ -19,7 +19,7 @@
 3. 执行 `npm run msg`
 4. 复制 `merger` 里的文件到 `\dist\data\`
 5. `dist` 获取 数据文件 和 资源文件
-6. 通过 https://github.com/lqzhgood/Shmily-Get-QQ-PC_utils 修复一些问题
+6. 通过 [Shmily-Get-QQ-PC_utils](https://github.com/lqzhgood/Shmily-Get-QQ-PC_utils) 修复一些问题
 
 ## ！丢失消息！ 以下类型 QQ 聊天窗不显示 就无法复制
 
@@ -75,3 +75,11 @@ QQ 导出 mht 中包含了图片等资源的 base64, 会使用 `.\lib\mht.js` �
 这应该是腾讯的 bug，因为从 QQ 的消息管理器里面看到的就是错误的（[QQ 经典-抠鼻]?）
 
 在我消息历史里面这个 bug 的时间跨度是 `2011-08-15 16:58:38` -> `2011-11-28 10:53:48`
+
+## 感谢
+
+http://lqzhgood.github.io/Shmily/guide/other/thanks.html
+
+## 捐赠
+
+点击链接 http://lqzhgood.github.io/Shmily/guide/other/donation.html 看世界上最可爱的动物
