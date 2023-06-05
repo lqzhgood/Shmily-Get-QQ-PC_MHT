@@ -2,10 +2,10 @@
  * @Description:
  * @Author: lqzh
  * @Date: 2020-02-28 10:52:24
- * @LastEditTime: 2023-06-04 22:57:33
+ * @LastEditTime: 2023-06-05 11:34:52
  */
 const cheerio = require("cheerio");
-const fs = require("fs");
+const fs = require("fs-extra");
 const path = require("path");
 const dayjs = require("dayjs");
 
@@ -22,9 +22,13 @@ const {
 const { fixImgExt } = require("./lib/fixImgExt");
 
 (async () => {
+    // 这里会删除 dist 目录
     mhtToHtml();
 
-    const html = fs.readFileSync("./dist/text0.html");
+    fs.mkdirpSync(config.DIST_DIR);
+    fs.mkdirpSync(config.DIST_DIR_TEMP);
+
+    const html = fs.readFileSync(`./dist/${config.rootPath}.html`);
     console.info("reading");
     const $ = cheerio.load(html, { decodeEntities: false });
     console.info("loading");

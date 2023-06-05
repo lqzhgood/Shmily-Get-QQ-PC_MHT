@@ -2,10 +2,9 @@
  * @Description:
  * @Author: lqzh
  * @Date: 2020-02-28 15:47:38
- * @LastEditTime: 2023-06-04 23:05:52
+ * @LastEditTime: 2023-06-05 11:43:16
  */
 
-const fs = require("fs-extra");
 const path = require("path");
 
 const config = {
@@ -40,16 +39,8 @@ const config = {
 
 config.DIST_DIR_TEMP = path.join(config.DIST_DIR, "_temp");
 
-// 资源目录
-// 应该要修改成 `./data/${config.rootPath}/img` 的形式，
-// 但是 php 脚本也需要修改，要调整 PHP 中 IMG_DIR 为入参形式...
-// 不会改 暂且这样吧
-
-config.imgWebPublicDir = `./data/qq-pc/img`;
-config.faceWebPublicDir = `./data/qq-pc/face`;
-config.fileWebPublicDir = `./data/qq-pc/file`;
-
-fs.mkdirpSync(config.DIST_DIR);
-fs.mkdirpSync(config.DIST_DIR_TEMP);
+config.imgWebPublicDir = `./data/${config.rootPath}/img`;
+config.faceWebPublicDir = `./data/${config.rootPath}/face`;
+config.fileWebPublicDir = `./data/${config.rootPath}/file`;
 
 module.exports = config;

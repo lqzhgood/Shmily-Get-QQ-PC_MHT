@@ -20,7 +20,6 @@ class MhtToHtml
     const STR_CONTENT_TYPE = 'Content-Type:';
     const STR_CONTENT_LOCATION = 'Content-Location:';
     const STR_LINE_BREAK = "\n";
-    const IMG_DIR = "./data/qq-pc/img/";
 
 
     // output image dir
@@ -48,6 +47,14 @@ class MhtToHtml
     // map old image name to new ones
     private $imageNameMap;
 
+
+    private $rootPath = "qq-pc";
+    private $IMG_PATH = "./data/qq-pc/img/";
+
+    private $fileName;
+
+
+
     /**
      * Constructor
      *
@@ -57,7 +64,7 @@ class MhtToHtml
      * @param string $outputDir
      * Directory of the image output, should be writable
      */
-    public function __construct($file = null, $outputDir = null)
+    public function __construct($file = null, $outputDir = null, $rootPath = null)
     {
         set_time_limit(0);
         if(!$file) {
@@ -67,6 +74,10 @@ class MhtToHtml
             }
         }
         $this->loadFile($file);
+
+        $this->fileName = basename($file,'.mht');
+
+
         if($outputDir) {
             $dirAvailable = true;
             if(!is_dir($outputDir)) {
@@ -79,6 +90,20 @@ class MhtToHtml
                 $this->outputDir = $outputDir;
             }
         }
+
+        if ($rootPath){
+            $this->rootPath = $rootPath;
+        }
+
+
+        $this->IMG_PATH ='./data/' . $rootPath . '/img/';
+        $imgDir =  $outputDir . substr($this->IMG_PATH, 1); // 删除第一个点
+
+
+        if (!is_dir($imgDir)){
+            mkdir($imgDir,0777, true);
+        }
+
     }
 
     public function setReplaceImageName($check) {
@@ -150,10 +175,10 @@ class MhtToHtml
             if($part['type'] == 'image' && !isset($this->imageNameMap[$part['image_file']])) {
                 $part['image_file'] = str_replace(array('\\'), '/', $part['image_file']);
                 fseek($fp, $part['start']);
-                $oldFilePath = realpath($this->outputDir) . DIRECTORY_SEPARATOR . self::IMG_DIR . DIRECTORY_SEPARATOR . $part['image_file'];
+                $oldFilePath = realpath($this->outputDir) . DIRECTORY_SEPARATOR . $this->IMG_PATH . DIRECTORY_SEPARATOR . $part['image_file'];
                 if(!$this->replaceImageName) {
                   if(basename($part['image_file']) != $part['image_file'] && dirname($part['image_file'])) {
-                    mkdir(realpath($this->outputDir) . DIRECTORY_SEPARATOR . self::IMG_DIR . DIRECTORY_SEPARATOR . dirname($part['image_file']), 0777, true);
+                    mkdir(realpath($this->outputDir) . DIRECTORY_SEPARATOR . $this->IMG_PATH . DIRECTORY_SEPARATOR . dirname($part['image_file']), 0777, true);
                   }
                 }
                 $wfp = fopen($oldFilePath, 'wb');
@@ -163,7 +188,7 @@ class MhtToHtml
                 if($this->replaceImageName) {
                     $md5FileName = md5_file($oldFilePath) . '.' . str_replace('jpeg', 'jpg', $part['format']);
                     $this->imageNameMap[$part['image_file']] = $md5FileName;
-                    $newFilePath = realpath($this->outputDir) . DIRECTORY_SEPARATOR . self::IMG_DIR . DIRECTORY_SEPARATOR . $md5FileName;
+                    $newFilePath = realpath($this->outputDir) . DIRECTORY_SEPARATOR . $this->IMG_PATH . DIRECTORY_SEPARATOR . $md5FileName;
                     if(file_exists($newFilePath)) {
                         unlink($oldFilePath);
                     }
@@ -184,7 +209,7 @@ class MhtToHtml
             // processing html
             if($part['type'] == 'text') {
 
-                $newFilePath = realpath($this->outputDir) . DIRECTORY_SEPARATOR . 'text' . $i . '.' . $part['format'];
+                $newFilePath = realpath($this->outputDir) . DIRECTORY_SEPARATOR . $this->rootPath . '.' . $part['format'];
 
                 $wfp = fopen($newFilePath, 'w');
 
@@ -315,7 +340,7 @@ class MhtToHtml
     {
         foreach($this->imageNameMap as $oldImg => $newImg) {
             if(strpos($content, $oldImg) !== false) {
-                $content = preg_replace('/(<img\s+[^>]*?)(["\'])' . preg_quote($oldImg, '/') . '\2/si', '$1"' . self::IMG_DIR . $newImg . '"', $content);
+                $content = preg_replace('/(<img\s+[^>]*?)(["\'])' . preg_quote($oldImg, '/') . '\2/si', '$1"' . $this->IMG_PATH . $newImg . '"', $content);
             }
         }
     }
@@ -323,12 +348,12 @@ class MhtToHtml
 
 
 $inputFile = $argv[1];
+$outputDir = './output';
+$rootPath = $argv[2];
 
-if (!is_dir('./output/data/qq-pc/img/')){
-    mkdir('./output/data/qq-pc/img/',0777, true);
-}
 
-$mth = new MhtToHtml($inputFile, './output');
+
+$mth = new MhtToHtml($inputFile, $outputDir, $rootPath);
 
 
 // optional, save images using images' md5 as name, around 2 times slower but can make sure there's no duplicate images saved

@@ -11,15 +11,16 @@
 !!! 每次运行会删除 `.\dist` 和 `.\mht\output` 文件夹 !!! <br />
 
 0. 安装 node 环境 [http://lqzhgood.github.io/Shmily/guide/setup-runtime/nodejs.html]
-1. 导出的 `.mht` 文件放入 `input`
+1. 安装 php 环境 [http://lqzhgood.github.io/Shmily/guide/setup-runtime/php.html]
+2. 导出的 `.mht` 文件放入 `input`
 
     - [PC_Clipboard](https://github.com/lqzhgood/Shmily-Get-QQ-PC_Clipboard) 得到的 face.json 放入 input 中 `./input/face.json`
 
-2. 修改 `config.js`
-3. 执行 `npm run msg`
-4. 复制 `merger` 里的文件到 `\dist\data\`
-5. `dist` 获取 数据文件 和 资源文件
-6. 通过 [Shmily-Get-QQ-PC_utils](https://github.com/lqzhgood/Shmily-Get-QQ-PC_utils) 修复一些问题
+3. 修改 `config.js`
+4. 执行 `npm run build`
+5. 复制 `merger` 里的文件到 `\dist\data\`
+6. `dist` 获取 数据文件 和 资源文件
+7. 通过 [Shmily-Get-QQ-PC_utils](https://github.com/lqzhgood/Shmily-Get-QQ-PC_utils) 修复一些问题
 
 ## ！丢失消息！ 以下类型 QQ 聊天窗不显示 就无法复制
 
