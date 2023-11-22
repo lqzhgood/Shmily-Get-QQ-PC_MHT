@@ -2,7 +2,7 @@
  * @Description:
  * @Author: lqzh
  * @Date: 2020-02-28 15:47:38
- * @LastEditTime: 2023-11-22 10:55:17
+ * @LastEditTime: 2023-11-22 10:56:27
  */
 
 const path = require('path');
@@ -19,7 +19,7 @@ const config = {
         },
         // 此处QQ内部硬编码 因此不需要修改
         // 根据颜色 判断发送方向(粗略)
-        // 但是每节的第一条颜色是错的. 所以需要以上 name 进行精准判断
+        // 因为每节的第一条颜色是错的. 所以需要以上 name 进行精准判断
         // 错误的示例可以查看 docs\config.js\config-color.jpg
         style: {
             //自己是绿色的 right
