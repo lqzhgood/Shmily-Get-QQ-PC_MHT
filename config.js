@@ -2,13 +2,13 @@
  * @Description:
  * @Author: lqzh
  * @Date: 2020-02-28 15:47:38
- * @LastEditTime: 2023-11-22 10:44:48
+ * @LastEditTime: 2023-11-22 10:55:17
  */
 
 const path = require('path');
 
 const config = {
-    // 此处用来判断消息是谁发出的
+    // 用于 mht 匹配 消息是谁发出的
     direction: {
         // 这里通过昵称判断, 因为昵称可能被修改, 因此存在多个
         name: {
@@ -29,11 +29,12 @@ const config = {
         },
     },
 
+    // 用于在 Shmily 中显示 发送/接受 者信息
     // 自己的 QQ 号码 和 用于显示的昵称
     rightNum: '110',
     rightName: 'name~',
 
-    // 对方的 QQ 号码 和用于显示的昵称
+    // 对方的 QQ 号码 和 用于显示的昵称
     leftNum: '119',
     leftName: ' name',
 
@@ -50,6 +51,8 @@ const config = {
     // 建议使用  QQ-PC-MHT-${对方QQ号}-${时间} 的格式用于和以后导出的数据区分
     rootPath: 'QQ-PC-MHT-12345678-20230101',
 
+
+    // 以下无需修改
     DIST_DIR: path.join(__dirname, './dist/'),
 };
 
