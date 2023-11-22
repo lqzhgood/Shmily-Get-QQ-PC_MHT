@@ -15,20 +15,30 @@
 2. 导出的 `.mht` 文件放入 `input`
 
     - (可选) [PC_Clipboard](https://github.com/lqzhgood/Shmily-Get-QQ-PC_Clipboard) 得到的 [face.json](https://raw.githubusercontent.com/lqzhgood/Shmily-Get-QQ-PC_Clipboard/main/temp/face.json) 放入 input 中 `./input/face.json`
- 
+
         > QQ 导出 mht 中包含了图片等资源的 base64, 会使用 `.\lib\mht.js` 分离 html 和 图片文件到 `.\dist` <br /> 其中图片资源文件会以 md5 名字命名
         >
         > [PC_Clipboard](https://github.com/lqzhgood/Shmily-Get-QQ-PC_Clipboard) 的 [face.json](https://raw.githubusercontent.com/lqzhgood/Shmily-Get-QQ-PC_Clipboard/main/temp/face.json) 中包含 MD5 和 表情描述的映射, 通过这个映射表会填充 mht 用到表情的描述用于统计 <br />
-      
 
 3. 修改 `config.js`
+
+    ```
+    // 用于从 mht 匹配
+    direction.name.go 填写 自己 用过的昵称
+    direction.name.come 填写 对方 用过的昵称
+
+    // 用于在 Shmily 显示
+    rightNum 自己的 QQ 号码
+    rightName 自己的昵称
+    leftNum 对方的 QQ 号码
+    leftName 对方的昵称
+
+    ```
+
 4. 执行 `npm run build`
 5. 复制 `merger` 里的文件到 `\dist\data\`
 6. `dist` 获取 数据文件 和 资源文件
 7. (可选) 通过 [Shmily-Get-QQ-PC_utils](https://github.com/lqzhgood/Shmily-Get-QQ-PC_utils) 修复一些问题
-
-
-
 
 ## 注意
 
@@ -76,7 +86,7 @@
 
 ## 对多个 MHT 合并去重
 
-可能你原来在多个时段备份了 .mht 的文件, 现在想合并这些 .mht 文件并去重. 
+可能你原来在多个时段备份了 .mht 的文件, 现在想合并这些 .mht 文件并去重.
 
 我的结论是你只能通过 `Beyond Compare` 等类似的软件手动合并去重了. 原因和可能出现的问题如下
 
@@ -99,7 +109,6 @@ http://lqzhgood.github.io/Shmily/guide/other/thanks.html
 ## 捐赠
 
 点击链接 http://lqzhgood.github.io/Shmily/guide/other/donation.html 看世界上最可爱的动物
-
 
 ```
 
