@@ -32,7 +32,6 @@
     rightName 自己的昵称
     leftNum 对方的 QQ 号码
     leftName 对方的昵称
-
     ```
 
 4. 执行 `npm run build`
@@ -109,7 +108,3 @@ http://lqzhgood.github.io/Shmily/guide/other/thanks.html
 ## 捐赠
 
 点击链接 http://lqzhgood.github.io/Shmily/guide/other/donation.html 看世界上最可爱的动物
-
-```
-
-```
