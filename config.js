@@ -2,7 +2,7 @@
  * @Description:
  * @Author: lqzh
  * @Date: 2020-02-28 15:47:38
- * @LastEditTime: 2023-11-22 11:36:53
+ * @LastEditTime: 2023-11-22 13:11:04
  */
 
 const path = require('path');
@@ -11,11 +11,15 @@ const config = {
     // 用于 mht 匹配 消息是谁发出的
     direction: {
         // 这里通过昵称判断, 因为昵称可能被修改, 因此存在多个
+        // 写多了没关系
+        // 如果写少了, 程序会抛出 ❌ name 无匹配 |${昵称}|
+        // 并且记录在 /dist/temp/NAME_NOT_IN_CONFIG.json 中
+        // 此时从 NAME_NOT_IN_CONFIG.json 获取填入下方 重新执行即可
         name: {
             // go 代表自己
-            go: ['昵称1', '昵称2', '昵称3'],
+            go: ['扫把星~ ',  '昵称3'],
             // come 代表对方
-            come: ['昵称1', '昵称2', '昵称3'],
+            come: ['\u0001    瑜 丫．', '昵称2', '昵称3'],
         },
         // 此处QQ内部硬编码 因此不需要修改
         // 根据颜色 判断发送方向(粗略)
