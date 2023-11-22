@@ -14,7 +14,7 @@
 1. 安装 php 环境 [http://lqzhgood.github.io/Shmily/guide/setup-runtime/php.html]
 2. 导出的 `.mht` 文件放入 `input`
 
-    - (可选) [PC_Clipboard](https://github.com/lqzhgood/Shmily-Get-QQ-PC_Clipboard) 得到的 [face.json](https://raw.githubusercontent.com/lqzhgood/Shmily-Get-QQ-PC_Clipboard/main/temp/face.json) 放入 input 中 `./input/face.json`
+    - (可选) 从 [PC_Clipboard](https://github.com/lqzhgood/Shmily-Get-QQ-PC_Clipboard) 更新 [face.json](https://raw.githubusercontent.com/lqzhgood/Shmily-Get-QQ-PC_Clipboard/main/temp/face.json) 放入 input 中 `./input/face.json`
 
         > QQ 导出 mht 中包含了图片等资源的 base64, 会使用 `.\lib\mht.js` 分离 html 和 图片文件到 `.\dist` <br /> 其中图片资源文件会以 md5 名字命名
         >
