@@ -2,7 +2,7 @@
  * @Description:
  * @Author: lqzh
  * @Date: 2020-02-28 15:47:38
- * @LastEditTime: 2023-11-22 10:56:27
+ * @LastEditTime: 2023-11-22 11:36:53
  */
 
 const path = require('path');
@@ -48,8 +48,8 @@ const config = {
     // 资源的 根文件夹 名称, 此目录下会存放 图片 表情 等资源, 资源文件结构如下
     //  资源文件 根文件夹   资源路径
     //  /data/  $rootPath  ./emoticon/5e671f8149d1b094c44aa0f5232f9cfd.gif
-    // 建议使用  QQ-PC-MHT-${对方QQ号}-${时间} 的格式用于和以后导出的数据区分
-    rootPath: 'QQ-PC-MHT-12345678-20230101',
+    // 建议使用  QQ_PC_MHT-${对方QQ号}-${时间} 的格式用于和以后导出的数据区分
+    rootPath: 'QQ_PC_MHT-12345678-20230101',
 
 
     // 以下无需修改
