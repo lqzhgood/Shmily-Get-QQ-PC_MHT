@@ -6,13 +6,28 @@
 
 处理由 `mht2html-master` 分割图片后的 html 文件，转换为 JSON。
 
+!!! 此工具不适用于 QQ NT !!!
+
 ## 使用
+
+<!--
+<details>
+<summary>从 docker 运行 (新手推荐)</summary>
+
+1. 安装 docker 环境 [http://lqzhgood.github.io/Shmily/guide/setup-runtime/docker.html]
+
+
+
+</details> -->
+
+
+
 
 !!! 每次运行会清空上一次的输出文件夹 ( `.\dist` 和 `.\mht\output` ) !!! <br />
 
-0. 安装 node 环境 [http://lqzhgood.github.io/Shmily/guide/setup-runtime/nodejs.html]
-1. 安装 php 环境 [http://lqzhgood.github.io/Shmily/guide/setup-runtime/php.html]
-2. 导出的 `.mht` 文件放入 `input`
+1. 安装 node 环境 [http://lqzhgood.github.io/Shmily/guide/setup-runtime/nodejs.html]
+2. 安装 php 环境 [http://lqzhgood.github.io/Shmily/guide/setup-runtime/php.html]
+3. 通过 `QQ自带的消息管理器` 导出 `.mht` 文件, 放入 `input`
 
     - (可选) 从 [PC_Clipboard](https://github.com/lqzhgood/Shmily-Get-QQ-PC_Clipboard) 更新 [face.json](https://raw.githubusercontent.com/lqzhgood/Shmily-Get-QQ-PC_Clipboard/main/temp/face.json) 放入 input 中 `./input/face.json`
 
@@ -20,7 +35,7 @@
         >
         > [PC_Clipboard](https://github.com/lqzhgood/Shmily-Get-QQ-PC_Clipboard) 的 [face.json](https://raw.githubusercontent.com/lqzhgood/Shmily-Get-QQ-PC_Clipboard/main/temp/face.json) 中包含 MD5 和 表情描述的映射, 通过这个映射表会填充 mht 用到表情的描述用于统计 <br />
 
-3. 修改 `config.js`
+4. 修改 `config.js`
 
     ```
     // 用于从 mht 匹配
@@ -34,10 +49,13 @@
     leftName 对方的昵称
     ```
 
-4. 执行 `npm run build`
-5. 复制 `merger` 里的文件到 `\dist\data\`
-6. `dist` 获取 数据文件 和 资源文件
-7. (可选) 通过 [Shmily-Get-QQ-PC_utils](https://github.com/lqzhgood/Shmily-Get-QQ-PC_utils) 修复一些问题
+5. 执行 `npm run build`
+6. 复制 `merger` 里的文件到 `\dist\data\`
+7. `dist` 获取 数据文件 和 资源文件
+8. (可选 大部分情况下用不到) 通过 [Shmily-Get-QQ-PC_utils](https://github.com/lqzhgood/Shmily-Get-QQ-PC_utils) 修复一些问题
+
+
+
 
 ## 注意
 
