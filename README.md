@@ -50,9 +50,8 @@
     ```
 
 5. 执行 `npm run build`
-6. 复制 `merger` 里的文件到 `\dist\data\`
-7. `dist` 获取 数据文件 和 资源文件
-8. (可选 大部分情况下用不到) 通过 [Shmily-Get-QQ-PC_utils](https://github.com/lqzhgood/Shmily-Get-QQ-PC_utils) 修复一些问题
+6. 在 `dist` 获取 数据文件 和 资源文件
+7. (可选 大部分情况下用不到) 通过 [Shmily-Get-QQ-PC_utils](https://github.com/lqzhgood/Shmily-Get-QQ-PC_utils) 修复一些问题
 
 
 

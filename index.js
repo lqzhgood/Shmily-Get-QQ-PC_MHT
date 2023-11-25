@@ -2,7 +2,7 @@
  * @Description:
  * @Author: lqzh
  * @Date: 2020-02-28 10:52:24
- * @LastEditTime: 2023-06-05 11:34:52
+ * @LastEditTime: 2023-11-25 18:45:12
  */
 const cheerio = require("cheerio");
 const fs = require("fs-extra");
@@ -112,5 +112,11 @@ const { fixImgExt } = require("./lib/fixImgExt");
         path.join(config.DIST_DIR, `${config.rootPath}.json`),
         dataText
     );
+
+    // 复制表情到输出目录
+
+    fs.copySync('./merger/data/qq-pc/', `./dist/data/${config.rootPath}/`)
+
+
     console.info("ok");
 })();
