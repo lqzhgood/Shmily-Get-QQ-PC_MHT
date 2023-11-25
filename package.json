@@ -15,11 +15,9 @@
     "dependencies": {
         "cheerio": "^1.0.0-rc.3",
         "dayjs": "^1.8.35",
-        "express": "^4.17.1",
         "file-type": "^16.5.3",
         "fs-extra": "^10.0.0",
-        "lodash": "^4.17.20",
-        "puppeteer": "^2.1.1"
+        "lodash": "^4.17.20"
     },
     "devDependencies": {
         "cross-env": "^7.0.0"
