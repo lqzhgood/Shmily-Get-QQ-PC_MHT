@@ -20,9 +20,6 @@
 
 </details> -->
 
-
-
-
 !!! 每次运行会清空上一次的输出文件夹 ( `.\dist` 和 `.\mht\output` ) !!! <br />
 
 1. 安装 node 环境 [http://lqzhgood.github.io/Shmily/guide/setup-runtime/nodejs.html]
@@ -38,23 +35,41 @@
 4. 修改 `config.js`
 
     ```
-    // 用于从 mht 匹配
+    // 用于从 mht 匹配消息
     direction.name.go 填写 自己 用过的昵称
     direction.name.come 填写 对方 用过的昵称
 
-    // 用于在 Shmily 显示
+    // 用于在 Shmily 显示消息
     rightNum 自己的 QQ 号码
     rightName 自己的昵称
     leftNum 对方的 QQ 号码
     leftName 对方的昵称
     ```
 
-5. 执行 `npm run build`
-6. 在 `dist` 获取 数据文件 和 资源文件
-7. (可选 大部分情况下用不到) 通过 [Shmily-Get-QQ-PC_utils](https://github.com/lqzhgood/Shmily-Get-QQ-PC_utils) 修复一些问题
+5. 安装依赖 [http://lqzhgood.github.io/Shmily/guide/setup-runtime/nodejs-dependencies.html]
+6. 运行程序 `npm run build`
+7. 在 `dist` 文件夹获取 `数据文件` 和 `资源文件`
+8. (可选 大部分情况下用不到) 通过 [Shmily-Get-QQ-PC_utils](https://github.com/lqzhgood/Shmily-Get-QQ-PC_utils) 修复一些问题
 
+### 文件夹结构
 
-
+```
+    -\
+    - node_modules                          <--- 项目依赖
+    - input                                 <--- 如果没有这个文件夹则新建
+        - face.json                         <--- (可选) 表情描述
+        - xxx.mht                           <--- QQ聊天记录导出的 `.mht` 放到这里
+    - dist
+        - data                              <--- 数据文件(夹)
+            - $rootPath                     <--- 由 `config.js` 设置
+        - QQ_PC_MHT-12345678-20230101.json  <--- 资源文件
+        - ...                               <--- 其他过程文件及日志
+    - config.js
+    - index.js
+    - package.json
+    - README.md
+    - ...
+```
 
 ## 注意
 
