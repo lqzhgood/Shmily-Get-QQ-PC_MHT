@@ -2,7 +2,7 @@
  * @Description:
  * @Author: lqzh
  * @Date: 2020-02-28 15:47:38
- * @LastEditTime: 2023-11-22 13:11:04
+ * @LastEditTime: 2023-11-25 23:10:58
  */
 
 const path = require('path');
@@ -17,9 +17,9 @@ const config = {
         // 此时从 NAME_NOT_IN_CONFIG.json 获取填入下方 重新执行即可
         name: {
             // go 代表自己
-            go: ['扫把星~ ',  '昵称3'],
+            go: ['昵称1 ', '昵称2'],
             // come 代表对方
-            come: ['\u0001    瑜 丫．', '昵称2', '昵称3'],
+            come: ['昵称1', '昵称2', '昵称3'],
         },
         // 此处QQ内部硬编码 因此不需要修改
         // 根据颜色 判断发送方向(粗略)
@@ -54,7 +54,6 @@ const config = {
     //  /data/  $rootPath  ./emoticon/5e671f8149d1b094c44aa0f5232f9cfd.gif
     // 建议使用  QQ_PC_MHT-${对方QQ号}-${时间} 的格式用于和以后导出的数据区分
     rootPath: 'QQ_PC_MHT-12345678-20230101',
-
 
     // 以下无需修改
     DIST_DIR: path.join(__dirname, './dist/'),
