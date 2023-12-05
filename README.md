@@ -10,26 +10,15 @@
 
 ## 使用
 
-```diff
- ######################################################
-+  视频教程 https://www.bilibili.com/video/BV1Qc411S7Dg/
- ######################################################
-```
-
-<!--
-<details>
-<summary>从 docker 运行 (新手推荐)</summary>
-
-1. 安装 docker 环境 [http://lqzhgood.github.io/Shmily/guide/setup-runtime/docker.html]
-
-
-
-</details> -->
-
 !!! 每次运行会清空上一次的输出文件夹 ( `.\dist` 和 `.\mht\output` ) !!! <br />
 
-1. 安装 node 环境 [http://lqzhgood.github.io/Shmily/guide/setup-runtime/nodejs.html]
-2. 安装 php 环境 [http://lqzhgood.github.io/Shmily/guide/setup-runtime/php.html]
+1. 🎞️ 安装 node 环境 [http://lqzhgood.github.io/Shmily/guide/setup-runtime/nodejs.html]
+2. 🎞️ 安装 php 环境 [http://lqzhgood.github.io/Shmily/guide/setup-runtime/php.html]
+
+```diff
++ 🎞️ 3-9   -->   https://www.bilibili.com/video/BV1Qc411S7Dg/
+```
+
 3. 下载本项目并解压
 4. 安装依赖 [http://lqzhgood.github.io/Shmily/guide/setup-runtime/nodejs-dependencies.html]
 5. 通过 `QQ自带的消息管理器` 导出 `.mht` 文件, 放入 `input`
