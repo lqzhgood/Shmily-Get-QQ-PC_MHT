@@ -114,9 +114,10 @@ const { fixImgExt } = require("./lib/fixImgExt");
     );
 
     // 复制表情到输出目录
-
     fs.copySync('./merger/data/qq-pc/', `./dist/data/${config.rootPath}/`)
 
+    // 清理 dist 无关的文件
+	fs.renameSync(path.join(config.DIST_DIR,`./${config.rootPath}.html`),path.join(config.DIST_DIR_TEMP,`./${config.rootPath}.html`))
 
     console.info("ok");
 })();
