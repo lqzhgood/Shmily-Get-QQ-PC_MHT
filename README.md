@@ -24,7 +24,9 @@
 
 1. 安装 node 环境 [http://lqzhgood.github.io/Shmily/guide/setup-runtime/nodejs.html]
 2. 安装 php 环境 [http://lqzhgood.github.io/Shmily/guide/setup-runtime/php.html]
-3. 通过 `QQ自带的消息管理器` 导出 `.mht` 文件, 放入 `input`
+3. 下载本项目并解压
+4. 安装依赖 [http://lqzhgood.github.io/Shmily/guide/setup-runtime/nodejs-dependencies.html]
+5. 通过 `QQ自带的消息管理器` 导出 `.mht` 文件, 放入 `input`
 
     - (可选) 从 [PC_Clipboard](https://github.com/lqzhgood/Shmily-Get-QQ-PC_Clipboard) 更新 [face.json](https://raw.githubusercontent.com/lqzhgood/Shmily-Get-QQ-PC_Clipboard/main/temp/face.json) 放入 input 中 `./input/face.json`
 
@@ -32,7 +34,7 @@
         >
         > [PC_Clipboard](https://github.com/lqzhgood/Shmily-Get-QQ-PC_Clipboard) 的 [face.json](https://raw.githubusercontent.com/lqzhgood/Shmily-Get-QQ-PC_Clipboard/main/temp/face.json) 中包含 MD5 和 表情描述的映射, 通过这个映射表会填充 mht 用到表情的描述用于统计 <br />
 
-4. 修改 `config.js`
+6. 修改 `config.js`
 
     ```
     // 用于从 mht 匹配消息
@@ -45,11 +47,9 @@
     leftNum 对方的 QQ 号码
     leftName 对方的昵称
     ```
-
-5. 安装依赖 [http://lqzhgood.github.io/Shmily/guide/setup-runtime/nodejs-dependencies.html]
-6. 运行程序 `npm run build`
-7. 在 `dist` 文件夹获取 `数据文件` 和 `资源文件`
-8. (可选 大部分情况下用不到) 通过 [Shmily-Get-QQ-PC_utils](https://github.com/lqzhgood/Shmily-Get-QQ-PC_utils) 修复一些问题
+7. 运行程序 `npm run build`
+8. 在 `dist` 文件夹获取 `数据文件` 和 `资源文件`
+9. (可选 大部分情况下用不到) 通过 [Shmily-Get-QQ-PC_utils](https://github.com/lqzhgood/Shmily-Get-QQ-PC_utils) 修复一些问题
 
 ### 文件夹结构
 
