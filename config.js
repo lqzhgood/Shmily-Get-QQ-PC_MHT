@@ -34,6 +34,8 @@ const config = {
     },
 
     // 用于在 Shmily 中显示 发送/接受 者信息
+    // 因为 direction.name 里面可以有好几个
+    // 你可以理解为在这里填一个你喜欢的 用来显示
     // 自己的 QQ 号码 和 用于显示的昵称
     rightNum: '110',
     rightName: 'name~',
