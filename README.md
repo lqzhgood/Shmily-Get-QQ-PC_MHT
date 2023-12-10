@@ -10,6 +10,13 @@
 
 ## 使用
 
+```
+🎞️ 视频集打包
+https://space.bilibili.com/3493106888476968/channel/seriesdetail?sid=3809121
+```
+
+
+
 !!! 每次运行会清空上一次的输出文件夹 ( `.\dist` 和 `.\mht\output` ) !!! <br />
 
 1. 🎞️ 安装 node 环境 [http://lqzhgood.github.io/Shmily/guide/setup-runtime/nodejs.html]
