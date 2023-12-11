@@ -54,11 +54,11 @@ https://space.bilibili.com/3493106888476968/channel/seriesdetail?sid=3809121
 9. (可选 大部分情况下用不到) 通过 [Shmily-Get-QQ-PC_utils](https://github.com/lqzhgood/Shmily-Get-QQ-PC_utils) 修复一些问题
 10. 结束
 ```
-                                     是  ---> Get   http://lqzhgood.github.io/Shmily/guide/use/get.html
-                                   /  
-        还需要导出其他类型的数据吗 ? 
-                                   \  
-                                     否  ---> Show  http://lqzhgood.github.io/Shmily/guide/use/show.html
+                           是  ---> Get   http://lqzhgood.github.io/Shmily/guide/use/get.html
+                          /  
+还需要导出其他类型的数据吗 ? 
+                          \  
+                           否  ---> Show  http://lqzhgood.github.io/Shmily/guide/use/show.html
 ```
 
 ### 文件夹结构
