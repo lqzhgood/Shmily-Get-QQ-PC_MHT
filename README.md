@@ -26,7 +26,7 @@ https://space.bilibili.com/3493106888476968/channel/seriesdetail?sid=3809121
 + 🎞️ 3-9   -->   https://www.bilibili.com/video/BV1Qc411S7Dg/
 ```
 
-3. 下载本项目并解压
+3. 🏞️ 下载本项目并解压 [http://lqzhgood.github.io/Shmily/guide/setup-runtime/github-down-repo.html]
 4. 安装依赖 [http://lqzhgood.github.io/Shmily/guide/setup-runtime/nodejs-dependencies.html]
 5. 通过 `QQ自带的消息管理器` 导出 `.mht` 文件, 放入 `input`
 
